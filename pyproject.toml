@@ -8,7 +8,9 @@ authors = [
 requires-python = ">=3.11"
 dependencies = [
     "fastapi (>=0.139.0,<0.140.0)",
-    "uvicorn[standard] (>=0.50.0,<0.51.0)"
+    "uvicorn[standard] (>=0.50.0,<0.51.0)",
+    "py-ulid (>=1.0.3,<2.0.0)",
+    "passlib[bcrypt] (>=1.7.4,<2.0.0)"
 ]
 
 
